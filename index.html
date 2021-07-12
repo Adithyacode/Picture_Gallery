@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
+
+</head>
+
+<body>
+   <ul class="menu">
+       <li class="links"><a href="#Home" style="list-style-type: none;">Home</a></li>
+       <li class="links"><a href="#Grid_View" style="list-style-type: none;">Grid View</a></li>
+       <li class="links"><a href="#Slide_View" style="list-style-type: none;">Slide View</a></li>
+    </ul>
+    <section id="Home">
+    <h1>Home</h1>
+        <center><h3>Hi, today I am going to show some pictures of some places and things, I will be using carousels and glyphicons in this project, hope you like it!</h3></center>
+    </section>
+    <section id="Grid_View">
+    <h1>Grid View</h1>
+<center>
+    <div>
+        <span>
+    <img class="images" src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F131204155457-victoria-falls-napr.jpg">
+            <img class="images" src="https://peakvisor.com/img/news/french-mountains.jpg">
+    </span>
+    <span>
+    <img class="images" src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150123193006-unesco-less-known-jiuzhaigou.jpg">
+        <img class="images" src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F120106061350-ireport-salt-flats.jpg">
+    </span>
+        </div>
+        </center>
+    </section>
+    <section id="Slide_View">
+    <h1>Slide View</h1>
+    <h4>Sliding is done by the carousel classes</h4>
+        </section>
+    <div></div>
+   <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+       <div class="item active">
+            <center>
+                <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F131204155457-victoria-falls-napr.jpg" class="img-responsive">
+                <div class="carousel-content">
+                <p>Victoria Falls</p>
+                </div>
+           </center>
+            </div>
+            <div class="item">
+            <center>
+                <img src="https://peakvisor.com/img/news/french-mountains.jpg" class="img-responsive">
+                <div class="carousel-content"><p>French Mountains</p></div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                    <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150123193006-unesco-less-known-jiuzhaigou.jpg" class="img-responsive">
+                    <div class="carousel-content">
+                    <p>Jiuzhaigou National Park</p>
+                    </div>
+                    </center>
+                </div>
+                <div class="item">
+                <center><img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F120106061350-ireport-salt-flats.jpg" class="img-responsive"><div class="carousel-content"><p>Gran Salar de Uyuni</p></div></center>
+                </div>
+       </div>
+       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.links {
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: serif;
+    font-size: 20px;
+    display: inline;
+}
+.links:hover {
+    font-size: 25;
+}
+.images {
+    text-align: center;
+    height:550px;
+    width: 600px;
+}
+.menu {
+    position: fixed;
+    background-color: cadetblue;
+    right: 0px;
+    margin-top: 0;
+    z-index: 10;
+    top: 0px;
+}
+#myCarousel {
+    background-color: cadetblue;
+}
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+#myCarousel2 {
+    background-color: chocolate;
+}
+#myCarousel2 img {
+    height: 300px;
+    margin-top: 35px;
+}
